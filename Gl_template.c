@@ -1272,6 +1272,223 @@ foots(int wsp_x, int wsp_y, int wsp_z, GLfloat scale)
 	}
 }
 
+void skrzydlo(float xParam, float yParam, float zParam)
+{
+	GLfloat a[3] = { -2.f + xParam, 0.5f + yParam, 2.f + zParam };
+	GLfloat b[3] = { 2.f + xParam, 0.5f + yParam, 2.f + zParam };
+	GLfloat c[3] = { 2.f + xParam, 0.5f + yParam, -2.f + zParam };
+	GLfloat d[3] = { -2.f + xParam, 0.5f + yParam, -2.f + zParam };
+	GLfloat e[3] = { -10.f + xParam, 0.f + yParam, -1.f + zParam };
+	GLfloat g[3] = { 10.f + xParam, 0.5f + yParam, -4.f + zParam };
+	GLfloat h[3] = { 10.f + xParam, 0.f + yParam, 1.f + zParam };
+	GLfloat i[3] = { a[0], a[1] - 1.f, a[2] };
+	GLfloat j[3] = { b[0], b[1] - 1.f, b[2] };
+	GLfloat k[3] = { d[0], d[1] - 1.f, d[2] };
+	GLfloat l[3] = { c[0], c[1] - 1.f, c[2] };
+	GLfloat n[3] = { -10.f + xParam, 0.5f + yParam, 4.f + zParam };
+	GLfloat r[3] = { n[0] + 6.f, a[1], n[2] - 1.f };
+	GLfloat s[3] = { g[0] - 6.f, a[1], g[2] + 1.f };
+
+	float x, y, z, angle, range = 2.f;
+	GLfloat twicePi = 2.f * GL_PI,
+		angleInc = GL_PI / 16.f;
+
+	//czysto testowo zwiêkszenie parametrów
+	for (int is = 0; is < 3; is++)
+	{
+		int amount = 2;
+		range = 4.f;
+		a[is] *= amount;
+		b[is] *= amount;
+		c[is] *= amount;
+		d[is] *= amount;
+		e[is] *= amount;
+		g[is] *= amount;
+		h[is] *= amount;
+		i[is] *= amount;
+		j[is] *= amount;
+		k[is] *= amount;
+		l[is] *= amount;
+		n[is] *= amount;
+		r[is] *= amount;
+		s[is] *= amount;
+	}
+
+	//pierwsze pó³ górnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
+	glColor3d(0.f, 1.0f, 1.0f);
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= twicePi; angle += angleInc)
+	{
+		x = range * sin(angle);
+		z = range * cos(angle);
+
+		if (x >= 0.f)
+		{
+			glVertex3d(c[0], c[1], zParam + z);
+			glVertex3d(xParam + x, c[1], zParam + z);
+		}
+	}
+	glEnd();
+
+	//drugie pó³ górnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= twicePi; angle += angleInc)
+	{
+		x = range * sin(angle);
+		z = range * cos(angle);
+
+		if (x < 0.f)
+		{
+			glVertex3d(a[0], a[1], zParam + z);
+			glVertex3d(xParam + x, a[1], zParam + z);
+		}
+	}
+	glEnd();
+
+	//pierwsze pó³ dolnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
+	glColor3d(0.f, 1.0f, 1.0f);
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= twicePi; angle += angleInc)
+	{
+		x = range * sin(angle);
+		z = range * cos(angle);
+
+		if (x >= 0.f)
+		{
+			glVertex3d(l[0], l[1], zParam + z);
+			glVertex3d(xParam + x, l[1], zParam + z);
+		}
+	}
+	glEnd();
+
+	//drugie pó³ dolnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= twicePi; angle += angleInc)
+	{
+		x = range * sin(angle);
+		z = range * cos(angle);
+
+		if (x < 0.f)
+		{
+			glVertex3d(i[0], i[1], zParam + z);
+			glVertex3d(xParam + x, i[1], zParam + z);
+		}
+	}
+	glEnd();
+
+	//tylna œciana œrodka
+	glColor3d(0.f, 0.4f, 0.4f);
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(d);
+	glVertex3fv(c);
+	glVertex3fv(k);
+	glVertex3fv(l);
+	glEnd();
+
+	//przednia œciana œrodka
+	glColor3d(0.f, 0.4f, 0.4f);
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(a);
+	glVertex3fv(b);
+	glColor3d(0.f, 1.0f, 1.0f);
+	glVertex3fv(i);
+	glVertex3fv(j);
+	glEnd();
+
+	//górna œciana lewego p³atka wiatraka
+	glColor3d(0.f, 0.3f, 0.7f);
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(e);
+	glVertex3fv(d);
+	glColor3d(0.f, 1.0f, 1.0f);
+	glVertex3d(n[0], n[1], n[2] - 2.f);
+	glVertex3fv(a);
+	glEnd();
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(a);
+	glVertex3fv(r);
+	glVertex3d(n[0], n[1], n[2] - 2.f);
+	glVertex3fv(n);
+	glEnd();
+
+	//górna œciana prawego p³atka wiatraka
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(h);
+	glVertex3fv(b);
+	glColor3d(0.f, 0.3f, 0.7f);
+	glVertex3d(g[0], g[1], g[2] + 2.f);
+	glVertex3fv(c);
+	glEnd();
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(c);
+	glVertex3fv(s);
+	glVertex3d(g[0], g[1], g[2] + 2.f);
+	glVertex3fv(g);
+	glEnd();
+
+	//dolna œciana lewego p³atka wiatraka
+	glColor3d(1.f, 0.3f, 0.7f);
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(k);
+	glVertex3fv(e);
+	glVertex3fv(i);
+	glVertex3d(n[0], n[1], n[2] - 2.f);
+	glEnd();
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(i);
+	glVertex3d(r[0], r[1], r[2]);
+	glVertex3d(n[0], n[1] - 0.01f, n[2] - 2.f);
+	glVertex3fv(n);
+	glEnd();
+
+	//dolna œciana prawego p³atka wiatraka
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(j);
+	glVertex3fv(h);
+	glVertex3fv(l);
+	glVertex3d(g[0], g[1], g[2] + 2.f);
+	glEnd();
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(l);
+	glVertex3d(s[0], s[1], s[2]);
+	glVertex3d(g[0], g[1] - 0.01f, g[2] + 2.f);
+	glVertex3fv(g);
+	glEnd();
+
+	//tylna œciana lewego skrzyd³a
+	glColor3d(0.4f, 0.f, 0.4f);
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(d);
+	glVertex3fv(e);
+	glVertex3fv(k);
+	glEnd();
+
+	//przednia œciana prawego skrzyd³a
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(b);
+	glColor3d(0.f, 0.3f, 0.7f);
+	glVertex3fv(h);
+	glVertex3fv(j);
+	glEnd();
+
+	//przednia œciana lewego skrzyd³a
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(a);
+	glVertex3fv(i);
+	glColor3d(0.4f, 0.f, 0.4f);
+	glVertex3fv(r);
+	glVertex3fv(n);
+	glEnd();
+
+	//tylnia œciana lewego skrzyd³a
+	glBegin(GL_TRIANGLE_STRIP);
+	glVertex3fv(c);
+	glVertex3fv(s);
+	glVertex3fv(l);
+	glVertex3fv(g);
+	glEnd();
+}
+
 body(int wsp_x,int wsp_y,int wsp_z)
 {
 	int x = 1;
@@ -2367,6 +2584,10 @@ void RenderScene(void)
 	body(0,0,0);
 	head(0,0,0);
 	gadgets(0, 0, 0);
+	skrzydlo(30, 6, 33);
+	skrzydlo(30, 6, -33);
+	skrzydlo(-30, 6, 33);
+	skrzydlo(-30, 6, -33);
 	//most();
 
 	//zad5();
