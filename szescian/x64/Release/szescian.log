@@ -1,0 +1,20 @@
+﻿  Gl_template.c
+..\Gl_template.c(350): warning C4018: '<': signed/unsigned mismatch
+..\Gl_template.c(462): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+..\Gl_template.c(712): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+..\Gl_template.c(713): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+..\Gl_template.c(933): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+..\Gl_template.c(937): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+..\Gl_template.c(945): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+..\Gl_template.c(949): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+..\Gl_template.c(1349): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+..\Gl_template.c(1521): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+..\Gl_template.c(1522): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+..\Gl_template.c(1544): warning C4028: formal parameter 3 different from declaration
+..\Gl_template.c(1544): warning C4028: formal parameter 4 different from declaration
+..\Gl_template.c(1544): warning C4133: 'function': incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,UINT,LONG)' to 'DLGPROC'
+  Generating code
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  szescian.vcxproj -> C:\Users\Piotrek\Desktop\szescian — kopia\x64\Release\szescian.exe
+  szescian.vcxproj -> C:\Users\Piotrek\Desktop\szescian — kopia\x64\Release\szescian.pdb (Full PDB)
