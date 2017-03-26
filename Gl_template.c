@@ -964,6 +964,236 @@ legs(int wsp_x,int wsp_y,int wsp_z,GLfloat scale)
 	}
 }
 
+flashlight(int wsp_x, int wsp_y, int wsp_z)
+{
+	GLfloat a[3] = { 25.f,0,25.f };
+	GLfloat b[3] = { 10.f,0,35.f };
+	GLfloat c[3] = { -25.f,0,25.f };
+	GLfloat d[3] = { -10.f,0,35.f };
+
+	glShadeModel(GL_SMOOTH);
+	glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
+	glBegin(GL_POLYGON);
+	glColor3f(0.4f, 0.2f, 0.2f);
+	glVertex3f(-a[0] - 10 + wsp_x, a[1] + 25 + wsp_y, -a[2] + 28 + wsp_z);
+	glVertex3f(-a[0] - 10 + wsp_x, a[1] + 30 + wsp_y, -a[2] + 28 + wsp_z);
+	glColor3f(0.7f, 0.4f, 0.5f);
+	glVertex3f(-a[0] + 7 + wsp_x, a[1] + 20 + wsp_y, a[2] - 22 + wsp_z);
+	glVertex3f(-a[0] + 7 + wsp_x, a[1] + 15 + wsp_y, a[2] - 22 + wsp_z);
+	glEnd();
+
+	glShadeModel(GL_SMOOTH);
+	glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
+	glBegin(GL_POLYGON);
+	glColor3f(0.4f, 0.2f, 0.2f);
+	glVertex3f(a[0] - 7 + wsp_x, a[1] + 15 + wsp_y, -a[2] + 28 + wsp_z);
+	glVertex3f(a[0] - 7 + wsp_x, a[1] + 20 + wsp_y, -a[2] + 28 + wsp_z);
+	glColor3f(0.7f, 0.4f, 0.5f);
+	glVertex3f(a[0] + 10 + wsp_x, a[1] + 30 + wsp_y, a[2] - 22 + wsp_z);
+	glVertex3f(a[0] + 10 + wsp_x, a[1] + 25 + wsp_y, a[2] - 22 + wsp_z);
+	glEnd();
+
+	glShadeModel(GL_SMOOTH);
+	glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
+	glBegin(GL_POLYGON);
+	glColor3f(0.4f, 0.2f, 0.2f);
+	glVertex3f(-a[0] - 10 + wsp_x, a[1] + 25 + wsp_y, -a[2] + 22 + wsp_z);
+	glVertex3f(-a[0] - 10 + wsp_x, a[1] + 30 + wsp_y, -a[2] + 22 + wsp_z);
+	glColor3f(0.7f, 0.4f, 0.5f);
+	glVertex3f(-a[0] + 7 + wsp_x, a[1] + 20 + wsp_y, a[2] - 28 + wsp_z);
+	glVertex3f(-a[0] + 7 + wsp_x, a[1] + 15 + wsp_y, a[2] - 28 + wsp_z);
+	glEnd();
+
+	glShadeModel(GL_SMOOTH);
+	glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
+	glBegin(GL_POLYGON);
+	glColor3f(0.4f, 0.2f, 0.2f);
+	glVertex3f(a[0] - 7 + wsp_x, a[1] + 15 + wsp_y, -a[2] + 22 + wsp_z);
+	glVertex3f(a[0] - 7 + wsp_x, a[1] + 20 + wsp_y, -a[2] + 22 + wsp_z);
+	glColor3f(0.7f, 0.4f, 0.5f);
+	glVertex3f(a[0] + 10 + wsp_x, a[1] + 30 + wsp_y, a[2] - 28 + wsp_z);
+	glVertex3f(a[0] + 10 + wsp_x, a[1] + 25 + wsp_y, a[2] - 28 + wsp_z);
+	glEnd();
+
+
+	glShadeModel(GL_SMOOTH);
+	glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
+	glBegin(GL_POLYGON);
+	glColor3f(0.4f, 0.2f, 0.2f);
+	
+	glVertex3f(a[0] - 7 + wsp_x, a[1] + 20 + wsp_y, -a[2] + 22 + wsp_z);
+	glVertex3f(a[0] - 7 + wsp_x, a[1] + 20 + wsp_y, -a[2] + 28 + wsp_z);
+	glColor3f(0.7f, 0.4f, 0.5f);
+	glVertex3f(a[0] + 10 + wsp_x, a[1] + 30 + wsp_y, a[2] - 22 + wsp_z);
+	glVertex3f(a[0] + 10 + wsp_x, a[1] + 30 + wsp_y, a[2] - 28 + wsp_z);
+	
+	glEnd();
+
+	glShadeModel(GL_SMOOTH);
+	glHint(GL_POLYGON_SMOOTH_HINT, GL_NICEST);
+	glBegin(GL_POLYGON);
+	glColor3f(0.4f, 0.2f, 0.2f);
+
+	glVertex3f(-a[0] - 10 + wsp_x, a[1] + 30 + wsp_y, -a[2] + 22 + wsp_z);
+	glVertex3f(-a[0] - 10 + wsp_x, a[1] + 30 + wsp_y, -a[2] + 28 + wsp_z);
+	glVertex3f(-a[0] + 7 + wsp_x, a[1] + 20 + wsp_y, -a[2] + 28 + wsp_z);
+	glVertex3f(-a[0] + 7+ wsp_x, a[1] + 20 + wsp_y, -a[2] + 22 + wsp_z);
+	glColor3f(0.7f, 0.4f, 0.5f);
+	
+
+	glEnd();
+
+	double angle, q, w;
+	// Jedna latarka
+	glColor3f(0.9f, 0.0f, 0.9f);
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 5 * sin(angle);
+		w = 5 * cos(angle);
+
+
+		glVertex3f(wsp_x + (a[0]+10), wsp_y + 30.0f, wsp_z + (a[2]-30));
+		glColor3f(0.1f, 0.0f, 0.1f);
+		glVertex3f(wsp_x + ((q + a[0]+10)), wsp_y + w+30.0f, wsp_z + (( a[2]-30)));
+
+	}
+	glEnd();
+
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 5 * sin(angle);
+		w = 5 * cos(angle);
+
+
+		glVertex3f(wsp_x + (a[0] + 10), wsp_y + 30.0f, wsp_z + (a[2] - 19));
+		glColor3f(0.7f, 0.0f, 0.1f);
+		glVertex3f(wsp_x + ((q + a[0] + 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 19)));
+
+	}
+	glEnd();
+
+
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 3 * sin(angle);
+		w = 3 * cos(angle);
+
+		glVertex3f(wsp_x + (a[0] + 10), wsp_y + 30.0f, wsp_z + (a[2] - 15));
+		glColor3f(1.f, 1.f, 0.0f);
+		glVertex3f(wsp_x + ((q + a[0] + 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 15)));
+
+
+	}
+	glEnd();
+
+
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 5 * sin(angle);
+		w = 5 * cos(angle);
+
+		glColor3f(0.4f, 0.2f, 0.0f);
+		glVertex3f(wsp_x + (q+a[0] + 10), wsp_y +w+ 30.0f, wsp_z + (a[2] - 30));
+		glColor3f(0.2f, 0.1f, 0.0f);
+		glVertex3f(wsp_x + ((q + a[0] + 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 19)));
+
+	}
+
+	glEnd();
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 3 * sin(angle);
+		w = 3 * cos(angle);
+
+		glColor3f(0.4f, 0.2f, 0.0f);
+		glVertex3f(wsp_x + (q + a[0] + 10), wsp_y + w + 30.0f, wsp_z + (a[2] - 19));
+		glColor3f(0.6f, 0.1f, 0.0f);
+		glVertex3f(wsp_x + ((q + a[0] + 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 15)));
+
+	}
+	glEnd();
+
+	//Druga latarka
+	glColor3f(0.9f, 0.0f, 0.9f);
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 5 * sin(angle);
+		w = 5 * cos(angle);
+
+
+		glVertex3f(wsp_x + (-a[0] - 10), wsp_y + 30.0f, wsp_z + (a[2] - 30));
+		glColor3f(0.1f, 0.0f, 0.1f);
+		glVertex3f(wsp_x + ((q -a[0] - 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 30)));
+
+	}
+	glEnd();
+
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 5 * sin(angle);
+		w = 5 * cos(angle);
+
+
+		glVertex3f(wsp_x + (-a[0] - 10), wsp_y + 30.0f, wsp_z + (a[2] - 19));
+		glColor3f(0.7f, 0.0f, 0.1f);
+		glVertex3f(wsp_x + ((q -a[0] - 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 19)));
+
+	}
+	glEnd();
+
+
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 3 * sin(angle);
+		w = 3 * cos(angle);
+
+		glVertex3f(wsp_x  -a[0] - 10, wsp_y + 30.0f, wsp_z + (a[2] - 15));
+		glColor3f(1.f, 1.f, 0.0f);
+		glVertex3f(wsp_x + ((q - a[0] - 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 15)));
+
+
+	}
+	glEnd();
+
+
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 5 * sin(angle);
+		w = 5 * cos(angle);
+
+		glColor3f(0.4f, 0.2f, 0.0f);
+		glVertex3f(wsp_x + (q - a[0] - 10), wsp_y + w + 30.0f, wsp_z + (a[2] - 30));
+		glColor3f(0.2f, 0.1f, 0.0f);
+		glVertex3f(wsp_x + ((q - a[0] - 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 19)));
+
+	}
+
+	glEnd();
+	glBegin(GL_TRIANGLE_STRIP);
+	for (angle = 0; angle <= 2 * GL_PI; angle += GL_PI / 8.0)
+	{
+		q = 3 * sin(angle);
+		w = 3 * cos(angle);
+
+		glColor3f(0.4f, 0.2f, 0.0f);
+		glVertex3f(wsp_x + (q - a[0] - 10), wsp_y + w + 30.0f, wsp_z + (a[2] - 19));
+		glColor3f(0.6f, 0.1f, 0.0f);
+		glVertex3f(wsp_x + ((q - a[0] - 10)), wsp_y + w + 30.0f, wsp_z + ((a[2] - 15)));
+
+	}
+	glEnd();
+
+}
+
 gadgets(int wsp_x, int wsp_y, int wsp_z)
 {
 	glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
@@ -1060,7 +1290,7 @@ gadgets(int wsp_x, int wsp_y, int wsp_z)
 					glColor3f(0.1f, 0.9f, 0.3f);
 					glVertex3f(wsp_x + (x*(q + 27.0f)), wsp_y + 15.0f, wsp_z + (y*(w + 18.0f)));
 					glColor3f(0.5f, 0.8f, 0.7f);
-					glVertex3f(wsp_x + (x*(1 + 23)), wsp_y + 20.0f, wsp_z + (y*(1 + 15.0f)));
+					glVertex3f(wsp_x + (x*(1 + 23)), wsp_y + 17.0f, wsp_z + (y*(1 + 15.0f)));
 
 				}
 			}
@@ -1070,8 +1300,8 @@ gadgets(int wsp_x, int wsp_y, int wsp_z)
 		y = 1;
 		GLfloat a[3] = { 25.f,0,25.f };
 		GLfloat b[3] = { 10.f,0,35.f };
-		GLfloat c[3] = { -25.f,0,25.f };
-		GLfloat d[3] = { -10.f,0,35.f };
+		GLfloat c[3] = { -30.f,0,40.f };
+		GLfloat d[3] = { -15.f,0,50.f };
 		for (int i = 0; i < 4; i++)
 		{
 			if (i == 2)
@@ -1083,7 +1313,7 @@ gadgets(int wsp_x, int wsp_y, int wsp_z)
 				x = 1;
 			}
 			glBegin(GL_POLYGON);
-			glColor3f(0.2f, 0.0f, 0.2f);
+			glColor3f(0.8f, 0.0f, 0.4f);
 			glVertex3f(x*(a[0]) + wsp_x, (a[1] + 5) + wsp_y, y*(a[2]) + wsp_z);
 			glVertex3f(x*(a[0] +3) + wsp_x, (a[1] + 10) + wsp_y, (y*(a[2] +3) + wsp_z));
 			glColor3f(0.4f, 0.0f, 0.1f);
@@ -2614,6 +2844,7 @@ void RenderScene(void)
 	skrzydlo(30, 6, -33);
 	skrzydlo(-30, 6, 33);
 	skrzydlo(-30, 6, -33);
+	flashlight(0, 0, 0);
 	//most();
 
 	//zad5();
