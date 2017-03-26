@@ -35,85 +35,84 @@ c:\tymczasowe\szescian\projektgrafika\gl_template.c(1043): warning C4244: 'funct
 c:\tymczasowe\szescian\projektgrafika\gl_template.c(1045): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
 c:\tymczasowe\szescian\projektgrafika\gl_template.c(1061): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
 c:\tymczasowe\szescian\projektgrafika\gl_template.c(1063): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1127): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1127): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1129): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1129): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1142): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1144): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1158): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1160): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1160): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1175): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1177): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1190): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1192): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1206): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1208): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1223): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1225): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1241): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1243): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1083): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1084): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1085): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1086): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1322): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1323): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1337): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1338): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1353): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1354): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1368): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1369): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1293): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1294): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1292): warning C4101: 'y': unreferenced local variable
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1528): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1509): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1510): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1511): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1512): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1596): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1597): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1599): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1600): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1659): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1660): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1662): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1663): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1695): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1706): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1580): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1581): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1582): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1583): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1883): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1887): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1895): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1899): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1979): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(1993): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2016): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2030): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2043): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2044): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2063): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2109): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2125): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2166): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2182): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2250): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2251): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2265): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2266): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2302): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2303): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2790): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2963): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2964): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2986): warning C4028: formal parameter 3 different from declaration
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2986): warning C4028: formal parameter 4 different from declaration
-c:\tymczasowe\szescian\projektgrafika\gl_template.c(2986): warning C4133: 'function': incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,UINT,LONG)' to 'DLGPROC'
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1087): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1088): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1090): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1091): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1153): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1153): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1155): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1155): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1168): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1170): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1184): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1186): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1186): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1201): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1203): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1216): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1218): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1232): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1234): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1249): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1251): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1267): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1269): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1109): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1110): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1111): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1112): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1319): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1320): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1318): warning C4101: 'z': unreferenced local variable
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1318): warning C4101: 'y': unreferenced local variable
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1318): warning C4101: 'x': unreferenced local variable
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1318): warning C4101: 'angle': unreferenced local variable
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1554): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1535): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1536): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1537): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1538): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1622): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1623): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1625): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1626): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1685): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1686): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1688): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1689): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1721): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1732): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1606): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1607): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1608): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1609): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1909): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1913): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1921): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(1925): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2005): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2019): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2042): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2056): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2069): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2070): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2089): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2135): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2151): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2192): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2208): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2276): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2277): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2291): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2292): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2328): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2329): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2816): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2989): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(2990): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(3012): warning C4028: formal parameter 3 different from declaration
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(3012): warning C4028: formal parameter 4 different from declaration
+c:\tymczasowe\szescian\projektgrafika\gl_template.c(3012): warning C4133: 'function': incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,UINT,LONG)' to 'DLGPROC'
   szescian.vcxproj -> C:\tymczasowe\szescian\ProjektGrafika\x64\Debug\szescian.exe
   szescian.vcxproj -> C:\tymczasowe\szescian\ProjektGrafika\x64\Debug\szescian.pdb (Full PDB)

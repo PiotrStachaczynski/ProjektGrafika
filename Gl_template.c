@@ -1066,6 +1066,32 @@ gadgets(int wsp_x, int wsp_y, int wsp_z)
 			}
 			glEnd();
 		}
+		x = 1;
+		y = 1;
+		GLfloat a[3] = { 25.f,0,25.f };
+		GLfloat b[3] = { 10.f,0,35.f };
+		GLfloat c[3] = { -25.f,0,25.f };
+		GLfloat d[3] = { -10.f,0,35.f };
+		for (int i = 0; i < 4; i++)
+		{
+			if (i == 2)
+			{
+				y = -1;
+			}
+			if (i == 3)
+			{
+				x = 1;
+			}
+			glBegin(GL_POLYGON);
+			glColor3f(0.2f, 0.0f, 0.2f);
+			glVertex3f(x*(a[0]) + wsp_x, (a[1] + 5) + wsp_y, y*(a[2]) + wsp_z);
+			glVertex3f(x*(a[0] +3) + wsp_x, (a[1] + 10) + wsp_y, (y*(a[2] +3) + wsp_z));
+			glColor3f(0.4f, 0.0f, 0.1f);
+			glVertex3f((x*(b[0] +3)) + wsp_x, (b[1] + 10) + wsp_y, (y*(b[2] +3) + wsp_z));
+			glVertex3f(x*(b[0]) + wsp_x, (b[1] + 5) + wsp_y, y*(b[2]) + wsp_z);
+			glEnd();
+			x = -1;
+		}
 	}
 }
 
@@ -1314,70 +1340,70 @@ void skrzydlo(float xParam, float yParam, float zParam)
 		s[is] *= amount;
 	}
 
-	//pierwsze pó³ górnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
-	glColor3d(0.f, 1.0f, 1.0f);
-	glBegin(GL_TRIANGLE_STRIP);
-	for (angle = 0; angle <= twicePi; angle += angleInc)
-	{
-		x = range * sin(angle);
-		z = range * cos(angle);
+	////pierwsze pó³ górnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
+	//glColor3d(0.f, 1.0f, 1.0f);
+	//glBegin(GL_TRIANGLE_STRIP);
+	//for (angle = 0; angle <= twicePi; angle += angleInc)
+	//{
+	//	x = range * sin(angle);
+	//	z = range * cos(angle);
 
-		if (x >= 0.f)
-		{
-			glVertex3d(c[0], c[1], zParam + z);
-			glVertex3d(xParam + x, c[1], zParam + z);
-		}
-	}
-	glEnd();
+	//	if (x >= 0.f)
+	//	{
+	//		glVertex3d(c[0], c[1], zParam + z);
+	//		glVertex3d(xParam + x, c[1], zParam + z);
+	//	}
+	//}
+	//glEnd();
 
-	//drugie pó³ górnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
-	glBegin(GL_TRIANGLE_STRIP);
-	for (angle = 0; angle <= twicePi; angle += angleInc)
-	{
-		x = range * sin(angle);
-		z = range * cos(angle);
+	////drugie pó³ górnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
+	//glBegin(GL_TRIANGLE_STRIP);
+	//for (angle = 0; angle <= twicePi; angle += angleInc)
+	//{
+	//	x = range * sin(angle);
+	//	z = range * cos(angle);
 
-		if (x < 0.f)
-		{
-			glVertex3d(a[0], a[1], zParam + z);
-			glVertex3d(xParam + x, a[1], zParam + z);
-		}
-	}
-	glEnd();
+	//	if (x < 0.f)
+	//	{
+	//		glVertex3d(a[0], a[1], zParam + z);
+	//		glVertex3d(xParam + x, a[1], zParam + z);
+	//	}
+	//}
+	//glEnd();
 
-	//pierwsze pó³ dolnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
-	glColor3d(0.f, 1.0f, 1.0f);
-	glBegin(GL_TRIANGLE_STRIP);
-	for (angle = 0; angle <= twicePi; angle += angleInc)
-	{
-		x = range * sin(angle);
-		z = range * cos(angle);
+	////pierwsze pó³ dolnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
+	//glColor3d(0.f, 1.0f, 1.0f);
+	//glBegin(GL_TRIANGLE_STRIP);
+	//for (angle = 0; angle <= twicePi; angle += angleInc)
+	//{
+	//	x = range * sin(angle);
+	//	z = range * cos(angle);
 
-		if (x >= 0.f)
-		{
-			glVertex3d(l[0], l[1], zParam + z);
-			glVertex3d(xParam + x, l[1], zParam + z);
-		}
-	}
-	glEnd();
+	//	if (x >= 0.f)
+	//	{
+	//		glVertex3d(l[0], l[1], zParam + z);
+	//		glVertex3d(xParam + x, l[1], zParam + z);
+	//	}
+	//}
+	//glEnd();
 
-	//drugie pó³ dolnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
-	glBegin(GL_TRIANGLE_STRIP);
-	for (angle = 0; angle <= twicePi; angle += angleInc)
-	{
-		x = range * sin(angle);
-		z = range * cos(angle);
+	////drugie pó³ dolnego otworu na nó¿kê drona, œrodek otworu ma wspó³rzêdne podane przez parametry
+	//glBegin(GL_TRIANGLE_STRIP);
+	//for (angle = 0; angle <= twicePi; angle += angleInc)
+	//{
+	//	x = range * sin(angle);
+	//	z = range * cos(angle);
 
-		if (x < 0.f)
-		{
-			glVertex3d(i[0], i[1], zParam + z);
-			glVertex3d(xParam + x, i[1], zParam + z);
-		}
-	}
-	glEnd();
+	//	if (x < 0.f)
+	//	{
+	//		glVertex3d(i[0], i[1], zParam + z);
+	//		glVertex3d(xParam + x, i[1], zParam + z);
+	//	}
+	//}
+	//glEnd();
 
 	//tylna œciana œrodka
-	glColor3d(0.f, 0.4f, 0.4f);
+	glColor3d(0.9f, 0.4f, 0.4f);
 	glBegin(GL_TRIANGLE_STRIP);
 	glVertex3fv(d);
 	glVertex3fv(c);
@@ -1386,11 +1412,11 @@ void skrzydlo(float xParam, float yParam, float zParam)
 	glEnd();
 
 	//przednia œciana œrodka
-	glColor3d(0.f, 0.4f, 0.4f);
+	glColor3d(0.9f, 0.4f, 0.4f);
 	glBegin(GL_TRIANGLE_STRIP);
 	glVertex3fv(a);
 	glVertex3fv(b);
-	glColor3d(0.f, 1.0f, 1.0f);
+	glColor3d(0.9f, 1.0f, 1.0f);
 	glVertex3fv(i);
 	glVertex3fv(j);
 	glEnd();
