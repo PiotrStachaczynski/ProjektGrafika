@@ -3,18 +3,22 @@
 class Drone
 {
 private:
-	float xParam, yParam, zParam;
+	GLfloat GL_PI = 3.1415;
+	float x, y, z;
 public:
 	Drone(float x,float y,float z);
 	~Drone();
-
-	void flashlight(float wsp_x, float wsp_y, float wsp_z);
-	void legs(float wsp_x, float wsp_y, float wsp_z, GLfloat scale);
-	void gadgets(float wsp_x, float wsp_y, float wsp_z);
-	void foots(float wsp_x, float wsp_y, float wsp_z, GLfloat scale);
-	void wing(float xParam, float yParam, float zParam);
-	void body(float wsp_x, float wsp_y, float wsp_z);
-	void head(float wsp_x, float wsp_y, float wsp_z);
 	void draw();
+	void kadlub(float x);
+	void ramiona(float x, float y, float z);
+	void silnik(float x, float y, float z);//dó³ lewy
+	void rotor(float x, float y, float z);
+	void oslona(float x, float y, float z);
+
+	void kamera(float x, float y, float z);
+
+	void spoiler(float x, float y, float z);
+	void nogi(float x, float y, float z);//nogi na których l¹duje dron; xyz - œrodek spodu kad³ubu
+	void podloga();
 };
 

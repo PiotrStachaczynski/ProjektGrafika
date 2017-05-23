@@ -61,7 +61,7 @@ int Model_OBJ::Load(char* filename)
 		{
 			getline(objFile, line);										
 
-			if (line.c_str()[0] == 'v')
+			if (line.c_str()[0] == 'v')										
 			{
 				line[0] = ' ';												
 
@@ -133,7 +133,7 @@ void Model_OBJ::Release()
 
 void Model_OBJ::Draw()
 {
-	
+	glColor3f(0.5, 0.7, 0.3);
 	glEnableClientState(GL_VERTEX_ARRAY);					
 	glEnableClientState(GL_NORMAL_ARRAY);						
 	glVertexPointer(3, GL_FLOAT, 0, Faces_Triangles);				
@@ -141,4 +141,15 @@ void Model_OBJ::Draw()
 	glDrawArrays(GL_TRIANGLES, 0, TotalConnectedTriangles);		
 	glDisableClientState(GL_VERTEX_ARRAY);						
 	glDisableClientState(GL_NORMAL_ARRAY);						
+}
+void Model_OBJ::Draw(float red, float green, float blue)
+{
+	glColor3f(red, green, blue);
+	glEnableClientState(GL_VERTEX_ARRAY);
+	glEnableClientState(GL_NORMAL_ARRAY);
+	glVertexPointer(3, GL_FLOAT, 0, Faces_Triangles);
+	glNormalPointer(GL_FLOAT, 0, normals);
+	glDrawArrays(GL_TRIANGLES, 0, TotalConnectedTriangles);
+	glDisableClientState(GL_VERTEX_ARRAY);
+	glDisableClientState(GL_NORMAL_ARRAY);
 }

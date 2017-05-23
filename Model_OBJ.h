@@ -20,7 +20,8 @@ public:
 	Model_OBJ();
 	float* Model_OBJ::calculateNormal(float* coord1, float* coord2, float* coord3);
 	int Model_OBJ::Load(char *filename);	
-	void Model_OBJ::Draw();					
+	void Model_OBJ::Draw();
+	void Draw(float red, float green, float blue);
 	void Model_OBJ::Release();				
 
 	float* normals;							

@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\tymczasowe\dron\main.cpp(335): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\tymczasowe\dron\main.cpp(336): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\tymczasowe\dron\main.cpp(337): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+  dron.vcxproj -> C:\tymczasowe\Dron\Debug\Dron.exe
+  dron.vcxproj -> C:\tymczasowe\Dron\Debug\Dron.pdb (Full PDB)
